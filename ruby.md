@@ -18,14 +18,13 @@ def pow(base,exponent)
 end
 ```
 
-# 2. Write a ruby method that returns the even
-numbers from an array of float numbers.
+# 2. Write a ruby method that returns the even numbers from an array of float numbers.
 (Do not use the even ruby method)
 
 ```ruby
 array_of_floats = [2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
 
-array_of_floats.map { |number| number % 2.zero? }.compact
+array_of_floats.map { |number| (number % 2).zero? }.compact
 ```
 
 # 3. What are collection and member routes?
